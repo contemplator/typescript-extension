@@ -1,0 +1,16 @@
+{
+  "name": "date-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": "https://github.com/contemplator/typescript-tutorial.git",
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
+}

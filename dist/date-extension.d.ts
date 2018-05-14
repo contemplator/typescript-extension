@@ -11,3 +11,4 @@ interface Date {
     getCurrentAge: () => number;
     countAge: (birthday: string) => number;
 }
+declare function padLeft(str: string, len: number): string;

@@ -88,7 +88,8 @@ Date.prototype.toFormatString = function (format) {
         return '';
     }
 };
-Date.prototype.getDaysInMonth = function (month, year) {
+Date.prototype.getDaysInMonth = function (year, month) {
+    console.log((new Date(year, month, 0)));
     return (new Date(year, month, 0)).getDate();
 };
 Date.prototype.getCurrentAge = function () {

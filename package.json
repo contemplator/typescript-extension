@@ -1,16 +1,21 @@
 {
   "name": "date-extension",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
     "build": "tsc -d"
   },
   "author": "",
   "license": "ISC",
   "repository": "https://github.com/contemplator/typescript-tutorial.git",
   "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
     "typescript": "^2.8.3"
   }
 }

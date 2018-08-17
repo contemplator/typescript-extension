@@ -68,17 +68,6 @@ Date.prototype.addMonths = function (months: number) {
     y = y + addYear;
     m = month;
   }
-  // let index: number = m - 1 + months;
-  // if (index >= 0) {
-  //     m = index % 12 + 1;
-  //     y = y + Math.floor(index / 12);
-  // } else {
-  //     m = 12 + (index + 1) % 12;
-  //     y = y + Math.ceil((index - 11) / 12);
-  // }
-  // let days: number = daysInMonth(y, m);
-
-  // d = (d > days) ? days : d;
 
   return new Date(y, m - 1, d, hh, mm, ss);
 };
@@ -120,7 +109,7 @@ Date.prototype.toFormatString = function (format: string): string {
   }
 };
 
-Date.prototype.getDaysInMonth = function (month: number, year: number): number {
+Date.prototype.getDaysInMonth = function (year: number, month: number): number {
   return (new Date(year, month, 0)).getDate();
 };
 

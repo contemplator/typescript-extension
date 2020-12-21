@@ -1,3 +1,17 @@
+# typescript-extension
+
+當初主要是第一個工作時，有個前輩自己寫了一個專門操作 Javascript Date 物件的函式，我覺得很好用，然後後來因為開發 Angular 的關係，所以想要將這些好用的函式寫成 Typescript 的語言，然後在自己的專案可以使用。
+
+為了使用上方便，所以都是根據 Typescript 原本就有的物件去做功能擴充。
+
+目前有增加擴充的資料型態有：
+
+## Date
+
+## Number
+
+---
+
 ## browserify and uglify
 
 ### browserify
